@@ -50,7 +50,7 @@ public class BaseTest
 	     driver.manage().deleteAllCookies();
 	     return driver;
 	}
-	@BeforeMethod
+	@BeforeMethod(alwaysRun = true)
 	public LandingPage launchApplication() throws IOException
 	{
 	driver=initializedriver();
@@ -60,7 +60,7 @@ public class BaseTest
 	}
 	
 	
-	@AfterMethod
+	@AfterMethod(alwaysRun = true)
 	public  void closeBrowser()
 	{
 		driver.quit();

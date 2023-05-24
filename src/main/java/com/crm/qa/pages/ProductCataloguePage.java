@@ -26,7 +26,7 @@ public class ProductCataloguePage extends AbstractComponent
 
      By ProductName = By.cssSelector(".inventory_item_name");
      
-     By addtoCart = By.cssSelector(".btn.btn_primary.btn_small.btn_inventory ");
+     By addtoCart = By.cssSelector(".btn.btn_primary.btn_small.btn_inventory");
 	
 
     public List<WebElement> getProductList()

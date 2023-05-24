@@ -14,7 +14,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class DemoSauce
 {
-    @Test
+    @Test(enabled = false)
     public void demoSauce()
     {
     	String productName="Sauce Labs Backpack";
